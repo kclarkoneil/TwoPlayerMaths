@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "MathsModel.h"
+#import "Player.h"
 @interface ViewController : UIViewController
 
-
+@property MathsModel *game;
+@property int playerInput;
 @end
 
